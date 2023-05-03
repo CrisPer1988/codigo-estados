@@ -8,7 +8,7 @@ const Home = () => {
         <div id='cdos' className="content__descrition">
             <h2 className='cd'>Codigos de estado 200</h2>
             <p>Este es el mejor tipo de código de estado HTTP que se puede recibir. Una respuesta de nivel 200 significa que todo funciona exactamente como debería.</p>
-            <a  className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#respuestas_satisfactorias" target='_blank'>Ver documentacion</a>
+            <a  className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#respuestas_satisfactorias" target='_blank'>Ver documentacion</a>
             <Dropdown  className='zmenu'>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
         200
@@ -25,6 +25,7 @@ const Home = () => {
     
       </Dropdown.Menu>
     </Dropdown>
+    <img className='img__error cda' src="/images/201.jpg" alt="" />
         </div>
         <div className="error__container">
             <h3 id='code200' className='e200'><span>200:</span>«Todo está bien». Este es el código que se entrega cuando una página web o recurso actúa exactamente como se espera.</h3>
@@ -46,7 +47,7 @@ const Home = () => {
         <div id='ctres' className="content__descrition300">
             <h2 className='cd cd300'>Codigos de estado 300</h2>
             <p>La redirección es el proceso utilizado para comunicar que un recurso ha sido trasladado a una nueva ubicación. Hay varios códigos de estado HTTP que acompañan a las redirecciones, con el fin de proporcionar a los visitantes información sobre dónde encontrar el contenido que están buscando.</p>
-            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#redirecciones" target='_blank'>Ver documentacion</a>
+            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#redirecciones" target='_blank'>Ver documentacion</a>
             <Dropdown className='zmenu'>
       <Dropdown.Toggle  className="hola hola300" variant="success" id="dropdown-basic">
         300
@@ -63,6 +64,8 @@ const Home = () => {
     
       </Dropdown.Menu>
     </Dropdown>
+    <img className='img__error cda' src="/images/307.jpg" alt="" />
+
         </div>
         <div className="error__container300">
             <h3 id="code300" className='e300'><span>300:</span>«Opciones Múltiples». A veces, puede haber múltiples recursos posibles con los que el servidor puede responder para cumplir con la solicitud de su navegador. Un código de estado 300 significa que tu navegador ahora tiene que elegir entre ellos. Esto puede ocurrir cuando hay múltiples extensiones de tipo de archivo disponibles, o si el servidor está experimentando desambiguación del sentido de las palabras.</h3>
@@ -82,7 +85,7 @@ const Home = () => {
         <div id='ccuatro' className="content__descrition400">
             <h2 className='cd cd400'>Codigos de estado 400</h2>
             <p>En el nivel 400, los códigos de estado HTTP comienzan a ser problemáticos. Estos son códigos de error que especifican que hay un fallo en su navegador y/o en la solicitud.</p>
-            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_cliente" target='_blank'>Ver documentacion</a>
+            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_cliente" target='_blank'>Ver documentacion</a>
             <Dropdown className='zmenu'>
       <Dropdown.Toggle className="hola hola400" variant="success" id="dropdown-basic">
         400
@@ -119,6 +122,8 @@ const Home = () => {
 
       </Dropdown.Menu>
     </Dropdown>
+    <img className='img__error cda' src="/images/404.jpg" alt="" />
+
         </div>
         <div className="error__container400">
             <h3 id="code400" className="e400"><span>400:</span>«Mala petición». El servidor no puede devolver una respuesta debido a un error del cliente. Vea nuestra guía para resolver este error.</h3>
@@ -181,7 +186,7 @@ Tu pago a través de Stripe ha fallado, o Stripe está tratando de evitar un pag
         <div id='ccinco' className="content__descrition500">
             <h2 className='cd cd500'>Codigos de estado 500</h2>
             <p>Los códigos de estado de nivel  500 también se consideran errores. Sin embargo, denotan que el problema está en el extremo del servidor. Esto puede hacer que sean más difíciles de resolver.</p>
-            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_servidor" target='_blank'>Ver documentacion</a>
+            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_servidor" target='_blank'>Ver documentacion</a>
             <Dropdown className='zmenu'>
       <Dropdown.Toggle className="hola hola500" variant="success" id="dropdown-basic">
         500
@@ -201,6 +206,8 @@ Tu pago a través de Stripe ha fallado, o Stripe está tratando de evitar un pag
         <Dropdown.Item href="#code525">525</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
+    <img className='img__error cda' src="/images/500.jpg" alt="" />
+
         </div>
         <div className="error__container500">
             <h3 id='code500' className='e500'><span>500:</span>«Hubo un error en el servidor y la solicitud no pudo ser completada». Este es un código genérico que simplemente significa «error interno del servidor». Algo salió mal en el servidor y el recurso solicitado no fue entregado. Este código es típicamente generado por plugins de terceros, PHP defectuoso, o incluso la ruptura de la conexión a la base de datos. Revisa nuestros tutoriales sobre cómo corregir el error al establecer una conexión de base de datos y otras formas de resolver un error de 500 servidores internos.</h3>

@@ -29,7 +29,7 @@ body {
 }
 
 .content__welcome h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .container__estados {
@@ -38,7 +38,7 @@ body {
   gap: 1rem;
   padding: 0 60px;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 2px;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .error__container h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .error__container span {
@@ -67,7 +67,7 @@ body {
 }
 
 .error__container300 h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .error__container300 span {
@@ -82,7 +82,7 @@ body {
 }
 
 .error__container400 h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .error__container400 span {
@@ -97,7 +97,7 @@ body {
 }
 
 .error__container500 h3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 
 }
 
@@ -109,7 +109,7 @@ body {
 .content__descrition {
   background-color: rgb(37, 160, 0);
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,12 +117,12 @@ body {
   position: relative;
 }
 
-.cd {
+/* .cd {
   position: sticky;
   top: 130px; 
   z-index: 1029;
   background-color: rgb(37, 160, 0);
-}
+} */
 
 .cd300 {
   background-color: rgb(255, 116, 3);
@@ -138,13 +138,18 @@ body {
 
 .cda {
   position: sticky;
-  top: 60px;
+  top: 100px;
   backdrop-filter: blur(5px);
   z-index: 1029;
 }
 
+.img__error {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .zmenu {
-  z-index: 1029;
+  z-index: 2000;
 }
 
 
@@ -180,7 +185,7 @@ body {
 .content__descrition300 {
   background-color: rgb(255, 116, 3);
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,7 +195,7 @@ body {
 .content__descrition400 {
   background-color: rgb(255, 3, 3);
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,7 +205,7 @@ body {
 .content__descrition500 {
   background-color: #3e03ff;
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
