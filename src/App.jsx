@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Home from './components/Home'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,9 +20,10 @@ Hay muchos códigos de estado HTTP diferentes, pero los más comunes son:
 404 Not Found: significa que el servidor no ha encontrado el recurso solicitado. Esto puede deberse a que la URL está mal escrita o que el recurso ha sido eliminado o movido.
 500 Internal Server Error: significa que ha habido un error en el servidor que impide que se procese la solicitud.
 Los códigos de estado HTTP son importantes porque permiten que los clientes (como los navegadores web) y los servidores se comuniquen de manera efectiva y sepan cómo manejar las solicitudes y respuestas de manera adecuada. Si un cliente recibe un código de estado que indica un error, puede tomar medidas para corregir el problema o informar al usuario sobre lo que ha sucedido.</h3>
-    <h4>Voy a mostrarte una listado algunos de los errores HTTP.</h4>
+    <h3>Voy a mostrarte una listado algunos de los errores HTTP.</h3>
     </div>
     <Home /> 
+    <Footer />
     </>
   )
 }

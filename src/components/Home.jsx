@@ -6,11 +6,11 @@ const Home = () => {
     <div className='container__estados'>
        
         <div id='cdos' className="content__descrition">
-            <h2>Codigos de estado 200</h2>
+            <h2 className='cd'>Codigos de estado 200</h2>
             <p>Este es el mejor tipo de código de estado HTTP que se puede recibir. Una respuesta de nivel 200 significa que todo funciona exactamente como debería.</p>
-            <a  className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#respuestas_satisfactorias" target='_blank'>Ver documentacion</a>
-            <Dropdown>
-      <Dropdown.Toggle className='hola hola200' variant="success" id="dropdown-basic">
+            <a  className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#respuestas_satisfactorias" target='_blank'>Ver documentacion</a>
+            <Dropdown  className='zmenu'>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
         200
       </Dropdown.Toggle>
 
@@ -44,10 +44,10 @@ const Home = () => {
    
         
         <div id='ctres' className="content__descrition300">
-            <h2>Codigos de estado 300</h2>
+            <h2 className='cd cd300'>Codigos de estado 300</h2>
             <p>La redirección es el proceso utilizado para comunicar que un recurso ha sido trasladado a una nueva ubicación. Hay varios códigos de estado HTTP que acompañan a las redirecciones, con el fin de proporcionar a los visitantes información sobre dónde encontrar el contenido que están buscando.</p>
-            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#redirecciones" target='_blank'>Ver documentacion</a>
-            <Dropdown>
+            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#redirecciones" target='_blank'>Ver documentacion</a>
+            <Dropdown className='zmenu'>
       <Dropdown.Toggle  className="hola hola300" variant="success" id="dropdown-basic">
         300
       </Dropdown.Toggle>
@@ -80,10 +80,10 @@ const Home = () => {
             <h3 id="code308" className='e300'><span>308:</span>«Redireccionamiento permanente». El código de estado 308 es el sucesor del código 301 «Movido permanentemente». No permite que el método HTTP cambie e indica que el recurso solicitado está ahora localizado permanentemente en una nueva URL.</h3>
         </div>
         <div id='ccuatro' className="content__descrition400">
-            <h2>Codigos de estado 400</h2>
+            <h2 className='cd cd400'>Codigos de estado 400</h2>
             <p>En el nivel 400, los códigos de estado HTTP comienzan a ser problemáticos. Estos son códigos de error que especifican que hay un fallo en su navegador y/o en la solicitud.</p>
-            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_cliente" target='_blank'>Ver documentacion</a>
-            <Dropdown>
+            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_cliente" target='_blank'>Ver documentacion</a>
+            <Dropdown className='zmenu'>
       <Dropdown.Toggle className="hola hola400" variant="success" id="dropdown-basic">
         400
       </Dropdown.Toggle>
@@ -179,10 +179,10 @@ Tu pago a través de Stripe ha fallado, o Stripe está tratando de evitar un pag
             <h3 id="code499" className="e400"><span>499:</span>«Solicitud de cliente cerrada». Esto es devuelto por NGINX cuando el cliente cierra la solicitud mientras Nginx aún la está procesando.</h3>
         </div>
         <div id='ccinco' className="content__descrition500">
-            <h2>Codigos de estado 500</h2>
+            <h2 className='cd cd500'>Codigos de estado 500</h2>
             <p>Los códigos de estado de nivel  500 también se consideran errores. Sin embargo, denotan que el problema está en el extremo del servidor. Esto puede hacer que sean más difíciles de resolver.</p>
-            <a className='links' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_servidor" target='_blank'>Ver documentacion</a>
-            <Dropdown>
+            <a className='links cda' href="https://developer.mozilla.org/es/docs/Web/HTTP/Status#errores_de_servidor" target='_blank'>Ver documentacion</a>
+            <Dropdown className='zmenu'>
       <Dropdown.Toggle className="hola hola500" variant="success" id="dropdown-basic">
         500
       </Dropdown.Toggle>
